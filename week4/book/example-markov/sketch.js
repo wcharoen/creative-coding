@@ -63,7 +63,7 @@ function setup() {
    
     c++;
   }
-  while (c < 3); // the number of chapters to generate.
+  while (c < 50); // the number of chapters to generate.
     
   // Make it into a book
   Bindery.makeBook({
