@@ -16,7 +16,7 @@ What You Should Do:
  - choose a different word. Animals sounds and screams have already
    been done. 
  - tweak the book layout options so it looks good.
- - take a look through the code below, which is written in a fairfly
+ - take a look through the code below, which is written in a fairly
    verbose way so that you can adjust any aspect you need to. 
    
 */
@@ -77,5 +77,4 @@ function setup() {
     })]
   });
   
-  //console.log(sentence);
 }
