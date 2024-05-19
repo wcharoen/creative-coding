@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
     
     <!-- RiTa library: -->
     <script src="https://unpkg.com/rita@2.8.31/dist/rita.js"></script>
@@ -11,7 +10,7 @@
     <title>Love, Markov</title> 
     <!--
         Use this page to complete the "Love, Markov" exercise:
-        https://canvas.umw.edu/courses/1446087/assignments/10970272
+        https://canvas.umw.edu/courses/1498218/assignments/11723285
     -->  
 
     <style type="text/css">
@@ -20,17 +19,31 @@
         }
         main {
             width: 100%;
+            display:none;
         }
         canvas {
             display:block;
             margin: 0 auto;
         }
+        #letter{
+            width:600px;
+            padding:2em;
+            background-color:#ccc;
+            margin-top:2em;
+            margin-left:2em;
+        }
     </style>
 
 </head>
 <body>
-    <main>
-    </main>
-    <script src="sketch.js"></script>
+  <div id="letter">
+
+    </div>  
+ 
+    <div id="source" style="display:none">
+
+
+    </div>
+       <script src="sketch.js"></script>
 </body>
 </html> 

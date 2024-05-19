@@ -1,7 +1,14 @@
-function setup() {
-  createCanvas(800, 800);
+
+
+let rm = RiTa.markov(2);
+
+
+
+function preload() {
+  result = loadStrings('');
 }
 
-function draw() {
-  background(220);
+function setup(){
+
+	
 }

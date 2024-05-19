@@ -23,7 +23,7 @@ What you need to do:
 let lines, fullText, mv,c,wc;
 
 function preload() {
-  lines = loadStrings("pride.txt");
+  lines = loadStrings("https://zachwhalen.github.io/creative-coding/week4/book/example-markov/pride.txt");
 }
 
 function setup() {
@@ -63,7 +63,7 @@ function setup() {
    
     c++;
   }
-  while (c < 50); // the number of chapters to generate.
+  while (c < 5); // the number of chapters to generate.
     
   // Make it into a book
   Bindery.makeBook({
