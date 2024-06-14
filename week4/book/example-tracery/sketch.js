@@ -87,16 +87,7 @@ function setup() {
     c++;
   }while (c < 55);
  
+  // trigger the polyfill rendering
+  window.PagedPolyfill.preview();
  
-  
-  // make a book out of all the content
-  Bindery.makeBook({
-    content: '#content',
-    
-    rules: [
-      Bindery.PageBreak({
-        selector: "h1",
-        position: "after",
-      })]
-  });
 }
