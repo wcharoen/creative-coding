@@ -61,20 +61,5 @@ function setup() {
     
   }
   
-  // make a book out of all the content
-  Bindery.makeBook({
-    content: '#content',
-    
-    rules: [
-      Bindery.PageBreak({
-        selector: "h1",
-        position: "after"
-      }),
-    Bindery.PageBreak({
-      selector: 'h2',
-      position: 'before',
-      continue: 'right'
-    })]
-  });
   
 }
