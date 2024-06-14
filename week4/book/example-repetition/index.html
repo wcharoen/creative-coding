@@ -5,7 +5,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
 
     <!-- include the Paged.js polyfill -->
-    <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <script defer src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <script>
+        window.PagedConfig = {auto: false};
+    </script>
 
     <!-- include the interface.css -->
     <!-- this code will reference my copy, but you should use your own, ideally. -->
@@ -23,8 +26,6 @@
 
 </head>
 <body>
-    <main>
-    </main>
     <script src="sketch.js"></script>
 </body>
 </html> 
