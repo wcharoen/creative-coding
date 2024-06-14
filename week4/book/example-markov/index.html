@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <!-- p5.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
 
+    <!-- including rita -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/2.8.31/rita.js" integrity="sha512-IGhGQtL9ApCRosCUaAuSlsUBrNeJpvviwzFyXvUFU/NpAudeKEvan5KIMC0QF3aT3Dp1/cGXHq936bpd8IVu7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/2.8.31/rita.js" integrity="sha512-IGhGQtL9ApCRosCUaAuSlsUBrNeJpvviwzFyXvUFU/NpAudeKEvan5KIMC0QF3aT3Dp1/cGXHq936bpd8IVu7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- include the Bindery library -->
-    <script src="https://unpkg.com/bindery@2.3.0/dist/bindery.min.js"></script>
-
+    <!-- include the Paged.js polyfill -->
+    <script defer src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <script>
+        // disable automatic rendering
+        window.PagedConfig = {auto: false};
+    </script>
 
 
     <title>Book</title> 
@@ -23,8 +27,6 @@
 
 </head>
 <body>
-    <main>
-    </main>
     <script src="sketch.js"></script>
 </body>
 </html> 
