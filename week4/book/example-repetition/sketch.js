@@ -65,5 +65,5 @@ function setup() {
     
   }
   
-  
+ window.PagedPolyfill.preview();
 }
