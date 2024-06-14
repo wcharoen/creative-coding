@@ -65,15 +65,7 @@ function setup() {
   }
   while (c < 5); // the number of chapters to generate.
     
-  // Make it into a book
-  Bindery.makeBook({
-    content: '#content',
-    
-    rules: [
-      Bindery.PageBreak({
-        selector: "h1",
-        position: "after",
-      })]
-  });
+  // call the polyfill rendering
+  window.PagedPolyfill.preview();
   
 }
