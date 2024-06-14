@@ -26,7 +26,11 @@ let wc = 0;
 
 function setup() {
 
-  let content = createElement("div");
+  // We won't need any canvas
+  noCanvas();
+
+ 
+  let content = select("body");
   content.attribute("id","content");
   
   content.child(createElement("h1","Many " + word + "s"));
