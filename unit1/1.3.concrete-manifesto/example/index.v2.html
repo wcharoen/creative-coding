@@ -6,7 +6,7 @@
     <!--
         This is my (Zach Whalen) interpretaton of 
         the Concrete Manifesto exercise:
-        https://canvas.umw.edu/courses/1498218/assignments/11723270
+        https://canvas.umw.edu/courses/1499064/assignments/11895963
 
         My manifesto statement is by Werner Herzog:
         "Fact creates norms, and truth illumination."
@@ -18,8 +18,8 @@
     -->  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <style type="text/css">
        
@@ -43,9 +43,7 @@
             letter-spacing:15px;
         }
     
-        #grow:hover {
-            cursor: pointer;
-        }
+        
     </style>
 </head>
 <body>
@@ -53,36 +51,12 @@
     <div>
         <p>FACT</p>
         <p>CREATES</p>
-        <p id="grow">NORMS</p> 
+        <p>NORMS</p> 
         <p>AND</p> 
         <p>TRUTH</p> 
         <p>ILLUMINATION</p>
     </div>
 
-  
-
-<script type="text/javascript">
-let g = document.getElementById("grow");
-
-// set the font-size property in JavaScript
-g.style.fontSize = "60px";
-
-// add a function to the onclick event
-g.onclick = function(){
-
-     // determine current font size and convert it to an integer
-     let fs = Number(this.style.fontSize.replace("px",""));
-
-     // make sure it worked
-     console.log(fs);
-
-     // change the color of the clicked element 
-     this.style.color = "red";
-
-     // change the font size to increase it by 10%
-     this.style.fontSize = fs * 1.1 + "px";
-};
-</script>
 
 </body>
 </html> 
