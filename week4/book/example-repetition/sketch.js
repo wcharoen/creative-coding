@@ -65,5 +65,11 @@ function setup() {
     
   }
   
+<<<<<<< Updated upstream
  window.PagedPolyfill.preview();
 }
+=======
+  window.PagedPolyfill.preview();
+  
+}
+>>>>>>> Stashed changes
